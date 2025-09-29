@@ -1,3 +1,48 @@
+/* Pixel Heart Animation for Clients Section */
+.pixel-heart-container {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    margin-left: 10px;
+}
+
+.pixel-heart {
+    position: relative;
+    width: 48px;
+    height: 42px;
+    background: transparent;
+    margin: 0 auto;
+    animation: heartBeat 1.2s infinite;
+}
+.pixel-heart:before,
+.pixel-heart:after {
+    content: "";
+    position: absolute;
+    left: 24px;
+    top: 0;
+    width: 24px;
+    height: 40px;
+    background: #a35ff9;
+    border-radius: 12px 12px 0 0;
+}
+.pixel-heart:before {
+    left: 0;
+}
+.pixel-heart:after {
+    left: 24px;
+}
+.pixel-heart {
+    background: #a35ff9;
+    transform: rotate(-45deg);
+}
+
+@keyframes heartBeat {
+    0%, 100% { transform: rotate(-45deg) scale(1); }
+    10% { transform: rotate(-45deg) scale(1.1); }
+    20% { transform: rotate(-45deg) scale(1); }
+    30% { transform: rotate(-45deg) scale(1.1); }
+    40% { transform: rotate(-45deg) scale(1); }
+}
 /* Jumping Ball Animation for Clients Satisfied */
 .jumping-ball-container {
     display: flex;
