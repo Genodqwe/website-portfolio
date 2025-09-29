@@ -84,7 +84,7 @@ html {
 body {
     background-color: #171717;
     color: #fff;
-    font-family: 'Krub';
+    font-family: 'Oswald', Arial, sans-serif;
 }
 
 /* header */
@@ -226,7 +226,7 @@ header button {
     flex-direction: column;
     justify-content: center;
     padding-left: 30px;
-    font-family: 'Krub';
+    font-family: 'Oswald', Arial, sans-serif;
 }
 
 #home .content .row .right h3 {
@@ -248,7 +248,7 @@ header button {
     color: #fff;
     padding: 7px 15px;
     text-transform: uppercase;
-    font-family: 'Oswald';
+    font-family: 'Oswald', Arial, sans-serif;
     transition: .3s;
 }
 
@@ -264,7 +264,7 @@ header button {
     color: #fff;
     padding: 7px 15px;
     text-transform: uppercase;
-    font-family: 'Oswald';
+    font-family: 'Oswald', Arial, sans-serif;
 }
 
 
@@ -286,6 +286,7 @@ header button {
     flex-direction: column;
     justify-content: center;
     position: relative;
+    font-family: 'Oswald', Arial, sans-serif;
 }
 
 .section-title {
@@ -430,6 +431,7 @@ header button {
     width: 250px;
     margin-bottom: 20px;
     transition: .5s;
+    font-family: 'Oswald', Arial, sans-serif;
 }
 #projects .content .row .col:hover {
     box-shadow: 0px 0px 20px #a35ff9;
@@ -486,6 +488,7 @@ header button {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: 'Oswald', Arial, sans-serif;
 }
 #clients .content .row .col img {
     width: 350px;
@@ -539,6 +542,7 @@ header button {
 #contact form {
     max-width: 500px;
     width: 100%;
+    font-family: 'Oswald', Arial, sans-serif;
 }
 #contact form p {
     margin-bottom: 30px;
@@ -574,6 +578,7 @@ footer {
 }
 footer .content {
     display: flex;
+    font-family: 'Oswald', Arial, sans-serif;
 }
 footer .content .col {
     width: 30%;
