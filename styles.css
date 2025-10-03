@@ -559,6 +559,8 @@ header button {
 #clients .content .row .col-story .client {
   display: flex;
   margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
 }
 #clients .content .row .col-story .client img {
   width: 80px;
@@ -566,6 +568,7 @@ header button {
   border-radius: 50%;
   filter: grayscale();
   margin-right: 20px;
+  align-items: center;
 }
 #clients .content .row .col-story .client h3 {
   font-size: 15px;
@@ -725,7 +728,7 @@ footer .content .social a:hover {
   }
 
   .section-title {
-    font-size: 100px; /* Reduced from 61px */
+    font-size: 70px; /* Reduced from 61px */
     text-align: center;
   }
 
